@@ -1,5 +1,5 @@
 # Portland MAX Delays Analysis
-This project examines Portland commuter rail (MAX) data with focus on delays. The data is from the month of January 2018. As the trains run, they periodically transmit their location (latitude, longitude) and delay time which is positive if early and negative if delayed. Relevant data fields used in the analysis include:
+This project examines Portland commuter rail (MAX) data with focus on weekday delays. The data is from the month of January 2018. As the trains run, they periodically transmit their location (latitude, longitude) and delay time which is positive if early and negative if delayed. Relevant data fields used in the analysis include:
 * tripID - TripID the vehicle is servicing
 * vehicleID - Identifies the vehicle
 * routeNumber - Route number the vehicle is servicing
