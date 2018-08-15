@@ -32,8 +32,19 @@ This chart includes early arrival data in the average. On average almost no trai
 
 ### Pareto Chart of Total Delay Time per Line
 ![Pareto](/images/delays-pareto.png)  
-Recommendation - To make the most impact, Trimet should focus on reducing delays in 4 routes: **MAX Blue Line to Hillsboro and Gresham**, **Max Yellow Line to Expo Center**, and **Max Red Line to Airport** which account for roughly **50% of all total delays**. Further analysis can be performed to see which stops within the lines are responsible for these delays.
+Recommendation - To make the most impact, Trimet should focus on reducing delays in 4 routes: **MAX Blue Line to Hillsboro and Gresham**, **Max Yellow Line to Expo Center**, and **Max Red Line to Airport** which account for roughly **50% of all total delays**
+
+### Ridership of Blue Line to Gresham
+After finding the routes that are most commonly delayed, we can dig deeper into individual routes and their stops. I investigate the Gresham Blue Line ridership data to find that certain stops have a greater influx of riders getting on and off than others. Then I compare rider activity at each stop to the additional delay generated from stop to stop. 
+
+![Ridership](/images/gresham_ridership.png)
+
+![DelayByStop](/images/gresham_delay.png)
+
+A notable stop is Gateway/NE 99th Ave Transit Center where there is the largest number of riders getting on and off and also the greatest increase in delay getting to the subsequent stop, E 102nd Ave. The delay could be attributed to the influx of rider activity. Another point of delay is between Providence Park and Oak SW 1st Ave stops, which crosses the heart of downtown. Note the data is missing some downtown stops that would be expected to show high ridership activity. But based on findings from available data, a second recommendation would be - **Trimet should seek ways to alleviate or better faciliate rider traffic at bottleneck stops such as Gateway/NE 99th Ave Transit Center that is responsible for increasing delays.**
+
 
 ### Resources
 https://developer.trimet.org/ws_docs/vehicle_locations_ws.shtml
 https://github.com/Kennfucius/trimet
+https://trimet.org/about/performance.htm
