@@ -16,6 +16,7 @@ Delays are concentrated during the morning rush hour and evening rush hour perio
 
 ### Distribution of Trimet Arrival Times
 ![Dist Plot](/images/dist_plot.png)
+
 The data distribution shows most trains arrive on time or close to on time. More trains are delayed than early. Delay measurements cap out at -1000 seconds.
 
 ### Heatmap of Total Delay Count by Line
