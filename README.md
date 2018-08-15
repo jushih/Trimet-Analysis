@@ -8,7 +8,7 @@ This project examines Portland commuter rail (MAX) data with focus on weekday de
 * **delay** - Delay of the vehicle along its schedule recorded in seconds
 * **timestamp** - Time this position was initially recorded
 
-Below is a summary of findings. The code used to generate the charts are in their respective Jupyter Notebooks.
+Below is a summary of findings and recommendations for Portland's rail system. The code used to generate the charts are in their respective Jupyter Notebooks.
 
 ### Delay Time Lapse
 ![Delay Time-Lapse](/images/hour.gif)  
@@ -33,7 +33,7 @@ This chart includes early arrival data in the average. On average almost no trai
 
 ### Pareto Chart of Total Delay Time per Line
 ![Pareto](/images/delays-pareto.png)  
-Recommendation - To make the most impact, Trimet should focus on reducing delays in 4 routes: **MAX Blue Line to Hillsboro and Gresham**, **Max Yellow Line to Expo Center**, and **Max Red Line to Airport** which account for roughly **50% of all total delays**
+To make the most impact, Portland Trimet should focus on reducing delays in 4 routes: **MAX Blue Line to Hillsboro and Gresham**, **Max Yellow Line to Expo Center**, and **Max Red Line to Airport** which account for roughly **50% of all total delays**
 
 ### Ridership of Blue Line to Gresham
 After finding the routes that are most commonly delayed, we can dig deeper into individual routes and their stops. I investigate the Gresham Blue Line ridership data to find that certain stops have a greater influx of riders getting on and off than others. Then I compare rider activity at each stop to the additional delay generated from stop to stop. 
@@ -42,7 +42,7 @@ After finding the routes that are most commonly delayed, we can dig deeper into 
 
 ![DelayByStop](/images/gresham_delay.png)
 
-A notable stop is Gateway/NE 99th Ave Transit Center where there is the largest number of riders getting on and off and also the greatest increase in delay getting to the subsequent stop, E 102nd Ave. The delay could be attributed to the influx of rider activity. Another point of delay is between Providence Park and Oak SW 1st Ave stops, which crosses the heart of downtown. Note the data is missing some downtown stops that would be expected to show high ridership activity. But based on findings from available data, a second recommendation would be - **Trimet should seek ways to alleviate or better faciliate rider traffic at bottleneck stops such as Gateway/NE 99th Ave Transit Center that is responsible for increasing delays.**
+A notable stop is Gateway/NE 99th Ave Transit Center where there is the largest number of riders getting on and off and also the greatest increase in delay getting to the subsequent stop, E 102nd Ave. The delay could be attributed to the influx of rider activity. Another point of delay is between Providence Park and Oak SW 1st Ave stops, which crosses the heart of downtown. Note the data is missing some downtown stops that would be expected to show high ridership activity. But based on findings from available data, a second recommendation would be: **Portland Trimet should seek ways to alleviate or better faciliate rider traffic at bottleneck stops such as Gateway/NE 99th Ave Transit Center that is responsible for increasing delays.**
 
 
 ### Resources
